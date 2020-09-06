@@ -1,0 +1,6 @@
+[submodule "repos/ipkg"]
+	path = repos/ipkg
+	url = https://github.com/kDVt/ipkg
+[submodule "repos/nsupport-inject"]
+	path = repos/nsupport-inject
+	url = https://github.com/kDVt/nsupport-inject

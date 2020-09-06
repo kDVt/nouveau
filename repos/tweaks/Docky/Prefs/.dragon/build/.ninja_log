@@ -1,0 +1,27 @@
+# ninja log v5
+1	164	1590269053719643158	.dragon/build/armv7/AppearanceSettings.m.o	5d377de073b34d6
+2	164	1590269053720650652	.dragon/build/arm64/AppearanceSettings.m.o	b8c437112f457086
+2	167	1590269053725038103	.dragon/build/arm64e/AppearanceSettings.m.o	6e86f7f01554c296
+2	195	1590269053755374765	.dragon/build/arm64e/Preferences.m.o	d6eb86608b6a282a
+1	200	1590269053759952924	.dragon/build/arm64/Preferences.m.o	2d18a84b656d3717
+0	203	1590269053762430203	.dragon/build/armv7/Preferences.m.o	d31eb551719e875d
+195	342	1590269053899003919	.dragon/build/DockyPrefs.arm64e	d59e4386a2eca3d1
+200	343	1590269053901853524	.dragon/build/DockyPrefs.arm64	6670986cafbda1fa
+203	345	1590269053906562649	.dragon/build/DockyPrefs.armv7	81ddbf00aa112084
+345	360	1590269053927189700	.dragon/sign/.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs.unsym	bc2da703f93a8483
+360	379	1590269053945750894	.dragon/sign/.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs.unsigned	465967b81f72fc20
+379	393	1590269053959960401	.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs	9b2c4ef20215030f
+0	10	0	stage	874a8da16c1b4fc1
+1	2503	1599282911984220202	.dragon/build/arm64e/AppearanceSettings.m.o	845472a26d011fa9
+1	2515	1599282912096706443	.dragon/build/arm64/AppearanceSettings.m.o	6aad979250b9e9e2
+0	2552	1599282912059102435	.dragon/build/arm64/Preferences.m.o	fa7da959ba427e99
+0	2561	1599282912073218207	.dragon/build/armv7/Preferences.m.o	7733ba84c22f7745
+1	2568	1599282912150216632	.dragon/build/arm64e/Preferences.m.o	a9f95ff8ebdb36ff
+0	2664	1599282912247705650	.dragon/build/armv7/AppearanceSettings.m.o	aa4f9c79134563b5
+2553	2697	1599282912279983016	.dragon/build/DockyPrefs.arm64	c7208f2c80fde88d
+2568	2711	1599282912294587422	.dragon/build/DockyPrefs.arm64e	8faf6737b1ebf23
+2664	2791	1599282912370322365	.dragon/build/DockyPrefs.armv7	5aa4bea24d0a2299
+2792	2816	1599282912403971194	.dragon/sign/.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs.unsym	bc2da703f93a8483
+2816	2834	1599282912422120742	.dragon/sign/.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs.unsigned	465967b81f72fc20
+2834	2847	1599282912434919494	.dragon/_/Library/PreferenceBundles/DockyPrefs.bundle/DockyPrefs	9b2c4ef20215030f
+0	9	0	stage	84bf00caa2e880b1
