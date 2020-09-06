@@ -2,9 +2,7 @@
 
 --- 
 
-Somewhere around the beginning of time (roughly), the iOS Jailbreak Developer community agreed upon using Debian's apt/dpkg packaging system on iOS. At the time, I guess it made sense? However, where we currently stand, the issues caused by this only grow. As with many things instrumental in jailbreak, the only reason anyone has given me for using apt at the moment is that "it works". And for most people, it does.
-
-Debian's packaging tools, however, are out of place on iOS, and provide no real advantage other than "working". Dragging an entirely different operating system's tools, and then modifying them partially to work on Darwin, adds another layer of confusion. There is genuinely no problem apt on iOS solves, and it's usage seems akin to porting Homebrew to Windows. 
+Getting right into it, Debian's packaging tools are out of place on iOS, and provide no real advantage other than "working". Dragging an entirely different operating system's tools, and then modifying them partially to work on Darwin, adds another layer of confusion. There is genuinely no problem apt on iOS solves, and it's usage seems akin to porting Homebrew to Windows. Why?
 
 This is a proposal with a full proof-of-concept, for an entirely new standard, based on how Darwin, the system we're operating on, handles packages. iOS ships with a built in package manager distributing IPA files, and using a similar format for Jailbreak packages makes perfect sense. I've detailed just a few of the glaring issues with APT. The presented concept below then details what changes would be made at every level of the process (not many!). I have also provided a proof-of-concept, including a full explanation of each aspect, implementation of the new package format, and clear details on implementation at every level.
 
