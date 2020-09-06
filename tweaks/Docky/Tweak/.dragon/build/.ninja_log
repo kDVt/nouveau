@@ -1,0 +1,23 @@
+# ninja log v5
+0	88	1590269053071445272	.dragon/build/logos/Tweak.xm.mm	3b099f339290d62f
+89	333	1590269053307718684	.dragon/build/arm64/Tweak.xm.mm.o	e6d67fe08f6a6bea
+89	338	1590269053312599645	.dragon/build/arm64e/Tweak.xm.mm.o	68273820e7898079
+88	349	1590269053324814300	.dragon/build/armv7/Tweak.xm.mm.o	d937c6c04aedf578
+334	479	1590269053458350721	.dragon/build/Docky.arm64	ddb9051b8a5971b2
+338	480	1590269053458313046	.dragon/build/Docky.arm64e	c2d13a455695ec44
+349	493	1590269053473352862	.dragon/build/Docky.armv7	343a9f7c5d0b3a1d
+493	511	1590269053495870325	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib.unsym	bff29512713a5fd9
+511	530	1590269053515092697	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib.unsigned	4e1635e76dc0f219
+530	547	1590269053532429055	.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib	35b932eb3be0a34d
+0	5	0	stage	47dd5b80fe17b668
+0	113	1599282908472626276	.dragon/build/logos/Tweak.xm.mm	572cfa514e40292d
+114	911	1599282909123408603	.dragon/build/arm64/Tweak.xm.mm.o	898b7f560d1c39b0
+114	916	1599282909130135194	.dragon/build/arm64e/Tweak.xm.mm.o	14d0312d3c5eda04
+113	985	1599282909225464946	.dragon/build/armv7/Tweak.xm.mm.o	9083acb6cc205351
+911	1104	1599282909453408205	.dragon/build/Docky.arm64	ff2f916144626a05
+916	1104	1599282909453834968	.dragon/build/Docky.arm64e	f4c5bc8504135651
+986	1129	1599282909484657888	.dragon/build/Docky.armv7	f43145f607fef533
+1129	1148	1599282909508775079	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib.unsym	bff29512713a5fd9
+1148	1180	1599282909540578048	.dragon/sign/.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib.unsigned	4e1635e76dc0f219
+1180	1197	1599282909558059096	.dragon/_/Library/MobileSubstrate/DynamicLibraries/Docky.dylib	35b932eb3be0a34d
+0	7	0	stage	88a5fb43c8f6f3f9

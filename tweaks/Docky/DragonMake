@@ -1,0 +1,26 @@
+---
+name: DockyLegacy
+icmd: sbreload
+
+Docky:
+  dir: Tweak
+  type: tweak
+  files:
+    - Tweak.xm
+  frameworks:
+    - UIKit
+    - Foundation
+    - WebKit
+
+DockyPrefs:
+  dir: prefs
+  type: prefs
+  files:
+    - Preferences.m
+    - AppearanceSettings.m
+  frameworks:
+    - Cephei
+    - CepheiPrefs
+    - Preferences
+    - UIKit
+  
