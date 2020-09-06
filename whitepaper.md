@@ -100,7 +100,3 @@ The new package format, however, does provide several benifits to repository own
 * Creating scripts to process, read, modify, or otherwise work with packages no longer requires complex extraction via `ar` and other tools. 
 * Although the new package format abandons control files, the root Info.plist contains all needed information, and the provided support script can process this into control file format.
 * The "sandboxed" design allows a bit more peace of mind regarding packages with malicious intentions. Malware can't be stopped, but it can be mitigated.
-
-## Details/POC
-
-https://github.com/kDVt/nouveau/blob/master/package-structure.md#detailspoc
