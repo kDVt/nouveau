@@ -2,7 +2,7 @@
 
 List of projects to help accomplish the goal of adoption.
 
-All names of 'original projects' are 'working names' and subject to change.
+All names of original projects are 'working names' and subject to change.
 
 ## ipkg
 
