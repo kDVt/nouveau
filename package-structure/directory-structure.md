@@ -9,7 +9,7 @@ The proposed structure of the zip contents is as follows:
 ```
 Package
 ├── Info.plist
-├── Tweak.ext
+├── Tweak.bundle
 │   ├── Tweak.dylib
 │   └── Info.plist
 │
@@ -31,17 +31,17 @@ Substitute "Tweak" with the name of the package in question.
 
 As the system looks through bundles contained in the Package folder, it will identify and handle them according to info within their Info.plist
 
-### The Tweak: Tweak.ext
+### The Tweak: Tweak.bundle
 
 .ext is a cosmetic folder name extension indicating the package contained is a runtime extension ('tweak').
 
-The `Tweak.ext` folder should act as a container for the contents of the tweak. The tweak should not assume it's location on disk, nor should it rely on it for anything.
+The `Tweak.bundle` folder should act as a container for the contents of the tweak. The tweak should not assume it's location on disk, nor should it rely on it for anything.
 
-Resources can be stored in the `Tweak.ext` folder for simpler implementations, but Resource Bundles are encouraged.
+Resources can be stored in the `Tweak.bundle` folder for simpler implementations, but Resource Bundles are encouraged.
 
 Presence of the `InjectLibrary` key within `Info.plist` identifies this bundle as a "tweak" to be injected.
 
-Info.plist contents in Tweak.ext:
+Info.plist contents in Tweak.bundle:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
